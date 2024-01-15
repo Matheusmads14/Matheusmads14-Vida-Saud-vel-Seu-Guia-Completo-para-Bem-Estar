@@ -1,0 +1,112 @@
+header {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3, h4 {
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+li {
+    padding-left: 25px;
+    list-style-position: inside;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divisao {
+    width: 32%;
+    text-align: justify;
+    padding: 20px 0 20px;
+}
+
+.lista {
+    padding: 10px 0 10px 0
+}
+
+.imc {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid #054F77;
+    border-radius: 10px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.dados input {
+    border: 0.2px solid black;
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 10px;
+}
+
+.dados input::placeholder{
+    font-size: 15px;
+}
+
+.dados button {
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+    border: 0.2px solid black;
+    transition: 0.3s linear;
+}
+
+.dados button:hover {
+    background-color: #054F77;
+    color: #fff;
+    border: 0.2px solid #054F77;;
+}
+
+.conteudo, .resultado, .dados, .imc h3 {
+    background-color: transparent;
+}
+
+.imagem-resultado img {
+    width: 159px;
+    height: 194px;
+    border-radius: 10px;
+}
+
+.resultado {
+    display: none;
+}
